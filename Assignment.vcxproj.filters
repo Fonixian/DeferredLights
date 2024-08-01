@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GL Utils">
+      <UniqueIdentifier>{ea41bfed-30a1-414b-b747-4d59ac6748a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{fd8e325f-d9a1-4eb6-84af-f37bce4b03f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{549da90a-db95-4b93-981f-1ff4f29b0d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Skybox">
+      <UniqueIdentifier>{7eff685b-5207-44c7-9d1a-cbd56293e518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Axes">
+      <UniqueIdentifier>{1966e04f-0caa-429a-b7f5-b1bb67bfc51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Lights">
+      <UniqueIdentifier>{5a061895-bef5-4221-9164-dab4ea40dec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Lights\Directional">
+      <UniqueIdentifier>{18ae1258-2a65-4184-96ff-f6d9027e2bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Lights\Point">
+      <UniqueIdentifier>{14f03d76-6d0b-4e16-90a8-dade82ff5387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Lights\Shadow">
+      <UniqueIdentifier>{6a4a6bcb-266d-441d-a01a-9d468e8ee397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SSAO">
+      <UniqueIdentifier>{485cddbf-3ff4-433b-b3ea-7237dfbb212d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Environment">
+      <UniqueIdentifier>{de44a7a3-7f72-4e7c-83c5-4cf08ecc8d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred">
+      <UniqueIdentifier>{0a4d78c9-3efc-4d11-899c-4ddf3cb0f918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred\Reflective">
+      <UniqueIdentifier>{1358459c-cf09-49cc-9400-121e900c761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred\NonReflective">
+      <UniqueIdentifier>{3c674b70-3811-40ed-ae58-3ae4edb08f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred\Display">
+      <UniqueIdentifier>{c4b85444-8a79-4bd4-9a05-dc917aff22f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\GLUtils.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\SDL_GLDebugMessageCallback.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\Camera.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\CameraManipulator.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\ProgramBuilder.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\ObjParser.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\GLUtils.hpp">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SDL_GLDebugMessageCallback.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Camera.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\CameraManipulator.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ProgramBuilder.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ObjParser.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ParametricSurfaceMesh.hpp">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\xneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\xpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\yneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ypos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\zneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\zpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\grass.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\tree.bmp">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\metal.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Frag_skybox.frag">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\Vert_skybox.vert">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\Frag_Col.frag">
+      <Filter>Shaders\Axes</Filter>
+    </None>
+    <None Include="Shaders\Vert_axes.vert">
+      <Filter>Shaders\Axes</Filter>
+    </None>
+    <None Include="Shaders\deferred_dir.frag">
+      <Filter>Shaders\Lights\Directional</Filter>
+    </None>
+    <None Include="Shaders\deferred_dir.vert">
+      <Filter>Shaders\Lights\Directional</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_dir.frag">
+      <Filter>Shaders\Lights\Directional</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_dir.vert">
+      <Filter>Shaders\Lights\Directional</Filter>
+    </None>
+    <None Include="Shaders\deferred_point.frag">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_point.tesc">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_point.tese">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_point2.vert">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_point.frag">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_point.tesc">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_point.tese">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\shadow_dir.frag">
+      <Filter>Shaders\Lights\Shadow</Filter>
+    </None>
+    <None Include="Shaders\shadow_dir.geom">
+      <Filter>Shaders\Lights\Shadow</Filter>
+    </None>
+    <None Include="Shaders\shadow_point.geom">
+      <Filter>Shaders\Lights\Shadow</Filter>
+    </None>
+    <None Include="Shaders\shadow_point.vert">
+      <Filter>Shaders\Lights\Shadow</Filter>
+    </None>
+    <None Include="Shaders\SSAO.frag">
+      <Filter>Shaders\SSAO</Filter>
+    </None>
+    <None Include="Shaders\SSAO.vert">
+      <Filter>Shaders\SSAO</Filter>
+    </None>
+    <None Include="Shaders\deferred_shadow_point.vert">
+      <Filter>Shaders\Lights\Point</Filter>
+    </None>
+    <None Include="Shaders\shadow_point.frag">
+      <Filter>Shaders\Lights\Shadow</Filter>
+    </None>
+    <None Include="Shaders\environment.frag">
+      <Filter>Shaders\Environment</Filter>
+    </None>
+    <None Include="Shaders\environment.geom">
+      <Filter>Shaders\Environment</Filter>
+    </None>
+    <None Include="Shaders\environment.vert">
+      <Filter>Shaders\Environment</Filter>
+    </None>
+    <None Include="Shaders\reflective.frag">
+      <Filter>Shaders\Deferred\Reflective</Filter>
+    </None>
+    <None Include="Shaders\reflective.vert">
+      <Filter>Shaders\Deferred\Reflective</Filter>
+    </None>
+    <None Include="Shaders\myFrag.frag">
+      <Filter>Shaders\Deferred\NonReflective</Filter>
+    </None>
+    <None Include="Shaders\myVert.vert">
+      <Filter>Shaders\Deferred\NonReflective</Filter>
+    </None>
+    <None Include="Shaders\postprocess.frag">
+      <Filter>Shaders\Deferred\Display</Filter>
+    </None>
+    <None Include="Shaders\postprocess.vert">
+      <Filter>Shaders\Deferred\Display</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Suzanne.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\cube.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\tree2.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\tree1.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\sphere.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\tree0.obj">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
