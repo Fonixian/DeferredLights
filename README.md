@@ -12,3 +12,5 @@ W,A,S,D move
 E,Q up/down
 
 Alt + Enter fullscreen
+
+<img width="1920" height="1080" alt="deferred" src="https://github.com/user-attachments/assets/e258acc7-6ae7-4623-aaf2-947e85841ae7" />
